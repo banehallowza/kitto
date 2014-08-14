@@ -20,7 +20,7 @@ foreach ($data->data as $key =>$value) {
 			echo "<font color='#4169e1'>".$value2->message."</font><br/>";
 			echo "<strong><font color='#b22222'>".$value2->from->name."</font></strong><br/>";
 			echo $newDate =  "โพสต์เมื่อวันที่ : ".date("d/m/Y H:i:s",strtotime($value2->created_time))."<br/>";
-			echo "<font color='#000000'>#######################################</font><br/><br/>";
+			echo "<font color='#000000'># ######################################</font><br/><br/>";
 		}
 		echo "<font color='#ffa567'><strong>------------------------------------------------------------------------------------------------------------------------------</strong></font><br/><br/>";
 }
